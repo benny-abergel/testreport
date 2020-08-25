@@ -1,0 +1,95 @@
+{
+  "uuid": "3b22c245-5dc0-4323-9dc9-125234efa8f0-tr-0-1001",
+  "historyId": "nunit_testing.FirstTest.test1",
+  "fullName": "nunit_testing.FirstTest.test1",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHCIL0005"
+    },
+    {
+      "name": "testClass",
+      "value": "nunit_testing.FirstTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "test1"
+    },
+    {
+      "name": "package",
+      "value": "nunit_testing.FirstTest"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "User"
+    },
+    {
+      "name": "suite",
+      "value": "PassedSuite"
+    },
+    {
+      "name": "subSuite",
+      "value": "NoAssert"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "https://github.com/nunit/docs/issues?utf8=%E2%9C%93&q=ISSUE-1",
+      "type": "issue"
+    },
+    {
+      "name": "TMS-12",
+      "url": "https://example.org/TMS-12",
+      "type": "tms"
+    }
+  ],
+  "name": "test1",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "XXX\n",
+  "steps": [
+    {
+      "name": "test1",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "50ebfa1a987c4f07ad86544e39d5ea2f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1586203653902,
+      "stop": 1586203653907
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1586203653901,
+  "stop": 1586203653912
+}

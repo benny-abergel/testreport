@@ -1,0 +1,10 @@
+{
+  "uuid": "0-1000-ignored",
+  "name": "nunit_testing.FirstTest",
+  "children": [],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1586188580920,
+  "stop": 1586188580998
+}
