@@ -1,0 +1,71 @@
+
+8/25/2020 4:26:04 PM | Start Test: Medcon.LeanFT.Tests.ReportEditor.ReportEditorTest.ReportEditorLayoutScreen
+The AdobeARMservice service status is currently set to Stopped
+Attempting to stop service..
+Cannot stop service AdobeARMservice because it's already inactive.
+Waiting for browser to be ready..
+Finished waiting for browser to be ready. Timeout: 994
+beauto2
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+31
+236
+ERROR:0
+Browser Version = {Type=Chrome, Version=84.0}
+Waiting for main grid to reload
+Waiting for browser to be ready..
+Finished waiting for browser to be ready. Timeout: 99
+Waiting for main grid to reload
+Revision 14
+Waiting for main grid to reload
+Waiting for main grid to reload
+Start CreateNewPatient
+Waiting for main grid to reload
+End CreateNewPatient
+DB Initialization: Data Source=AutoLean1; Initial Catalog=Medcon; Integrated Security = SSPI; User ID=medcon\mcksetup; Password=McKesson8
+Waiting for browser to be ready..
+Finished waiting for browser to be ready. Timeout: 19980
+Waiting for browser to be ready..
+Finished waiting for browser to be ready. Timeout: 996
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+31
+236
+Report is not activate
+The AdobeARMservice service status is currently set to Stopped
+Attempting to stop service..
+Cannot stop service AdobeARMservice because it's already inactive.
+8/25/2020 4:33:09 PM | Test Result: Passed
+

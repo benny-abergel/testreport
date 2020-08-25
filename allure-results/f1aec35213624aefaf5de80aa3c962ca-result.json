@@ -1,0 +1,91 @@
+{
+  "uuid": "bf1f5ee5-de48-4ca3-91d3-f3d8a93a3b24-tr-0-1173",
+  "historyId": "Medcon.LeanFT.Tests.CardiologyWeb.Authentication.CardiologyWebAuthentication",
+  "fullName": "Medcon.LeanFT.Tests.CardiologyWeb.Authentication.CardiologyWebAuthentication",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AUTOLEAN1HEMO"
+    },
+    {
+      "name": "testClass",
+      "value": "Medcon.LeanFT.Tests.CardiologyWeb.Authentication"
+    },
+    {
+      "name": "testMethod",
+      "value": "CardiologyWebAuthentication"
+    },
+    {
+      "name": "package",
+      "value": "Medcon.LeanFT.Tests.CardiologyWeb.Authentication"
+    },
+    {
+      "name": "tag",
+      "value": "361963"
+    },
+    {
+      "name": "tag",
+      "value": "SecurityTest"
+    },
+    {
+      "name": "tag",
+      "value": "PerformanceTest"
+    },
+    {
+      "name": "tag",
+      "value": "SystemTest"
+    },
+    {
+      "name": "tag",
+      "value": "SystemTestsRun"
+    },
+    {
+      "name": "tag",
+      "value": "Authentication"
+    },
+    {
+      "name": "suite",
+      "value": "test"
+    }
+  ],
+  "links": [],
+  "name": "CardiologyWebAuthentication",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CardiologyWebAuthentication",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "d7da0fe77f354079a5d38d324901a331-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1598350310528,
+      "stop": 1598350354590
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1598350310526,
+  "stop": 1598350354596
+}

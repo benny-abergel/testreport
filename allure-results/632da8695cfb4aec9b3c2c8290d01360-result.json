@@ -1,0 +1,87 @@
+{
+  "uuid": "fd6e6b66-8f87-4da9-a104-a41f8d02b8f9-tr-0-1095",
+  "historyId": "Medcon.LeanFT.Tests.ReportEditor.ReportEditorTest.ReportEditorLayoutScreen",
+  "fullName": "Medcon.LeanFT.Tests.ReportEditor.ReportEditorTest.ReportEditorLayoutScreen",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AUTOLEAN1HEMO"
+    },
+    {
+      "name": "testClass",
+      "value": "Medcon.LeanFT.Tests.ReportEditor.ReportEditorTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "ReportEditorLayoutScreen"
+    },
+    {
+      "name": "package",
+      "value": "Medcon.LeanFT.Tests.ReportEditor.ReportEditorTest"
+    },
+    {
+      "name": "tag",
+      "value": "370292"
+    },
+    {
+      "name": "tag",
+      "value": "SanityTest"
+    },
+    {
+      "name": "tag",
+      "value": "SanityTestsMCReportingRun"
+    },
+    {
+      "name": "tag",
+      "value": "ReportEditorTest"
+    },
+    {
+      "name": "tag",
+      "value": "TryingAllure"
+    },
+    {
+      "name": "suite",
+      "value": "Sanity"
+    }
+  ],
+  "links": [],
+  "name": "ReportEditorLayoutScreen",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "ReportEditorLayoutScreen",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "2b0f658712b64f179a461f5814fbbf43-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1598361964778,
+      "stop": 1598362389382
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1598361964776,
+  "stop": 1598362389388
+}

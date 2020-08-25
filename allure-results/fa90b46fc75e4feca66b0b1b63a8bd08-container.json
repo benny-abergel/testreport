@@ -1,0 +1,121 @@
+{
+  "uuid": "b654adbc-9e8b-4f09-9eed-cb8bb4169d1b-tc-0-1092",
+  "name": "Medcon.LeanFT.Tests.ReportEditor.ReportEditorTest.ReportTestPermissionValidation",
+  "children": [
+    "6e51c52b-e15e-48ce-b949-4b411b2563a5-tr-0-1094"
+  ],
+  "befores": [
+    {
+      "name": "GlobalSetup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1598363177404,
+      "stop": 1598363177404
+    },
+    {
+      "name": "TestFixtureSetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1598363177404,
+      "stop": 1598363177404
+    },
+    {
+      "name": "BasicSetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1598363177404,
+      "stop": 1598363177404
+    },
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1598363177404,
+      "stop": 1598363177404
+    }
+  ],
+  "afters": [
+    {
+      "name": "BasicTearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1598363177404,
+      "stop": 1598363177404
+    },
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1598363177404,
+      "stop": 1598363177404
+    },
+    {
+      "name": "TestFixtureTearDown",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1598363177404,
+      "stop": 1598363177404
+    }
+  ],
+  "links": [],
+  "start": 1598362946137,
+  "stop": 1598363177463
+}
