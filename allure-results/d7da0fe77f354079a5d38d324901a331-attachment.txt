@@ -1,0 +1,18 @@
+
+8/25/2020 1:11:50 PM | Start Test: Medcon.LeanFT.Tests.CardiologyWeb.Authentication.CardiologyWebAuthentication
+The AdobeARMservice service status is currently set to Stopped
+Attempting to stop service..
+Cannot stop service AdobeARMservice because it's already inactive.
+DB Initialization: Data Source=AutoLean1; Initial Catalog=Medcon; Integrated Security = SSPI; User ID=medcon\mcksetup; Password=McKesson8
+ERROR:0
+Browser Version = {Type=Chrome, Version=84.0}
+1 Timestamp - Cardiology Web Login: 00:00:00.0000927
+2 Timestamp - Patient List Ready: 00:00:09.4218649
+Cardiology Web Login in milliseconds: 9421
+_lastId: 1342||| id: 1347
+Measurement was taken: 8102ms
+The AdobeARMservice service status is currently set to Stopped
+Attempting to stop service..
+Cannot stop service AdobeARMservice because it's already inactive.
+8/25/2020 1:12:34 PM | Test Result: Passed
+

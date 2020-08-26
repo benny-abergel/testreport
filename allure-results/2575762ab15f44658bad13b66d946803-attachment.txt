@@ -1,0 +1,10 @@
+
+8/25/2020 4:54:03 PM | Start Test: Medcon.LeanFT.Tests.TCS.TCS.TCSSanityFlowImportViewerReport
+The AdobeARMservice service status is currently set to Stopped
+Attempting to stop service..
+Cannot stop service AdobeARMservice because it's already inactive.
+The AdobeARMservice service status is currently set to Stopped
+Attempting to stop service..
+Cannot stop service AdobeARMservice because it's already inactive.
+8/25/2020 4:55:26 PM | Test Result: Failed
+

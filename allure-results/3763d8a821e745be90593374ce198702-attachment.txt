@@ -1,0 +1,95 @@
+
+8/25/2020 4:33:09 PM | Start Test: Medcon.LeanFT.Tests.ReportEditor.ReportEditorTest.ReportEditorSectionScreen
+The AdobeARMservice service status is currently set to Stopped
+Attempting to stop service..
+Cannot stop service AdobeARMservice because it's already inactive.
+Waiting for browser to be ready..
+Finished waiting for browser to be ready. Timeout: 995
+beauto2
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+31
+236
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+31
+236
+ERROR:0
+Browser Version = {Type=Chrome, Version=84.0}
+Waiting for main grid to reload
+Waiting for browser to be ready..
+Finished waiting for browser to be ready. Timeout: 99
+Waiting for main grid to reload
+Revision 15
+Waiting for main grid to reload
+Waiting for main grid to reload
+Start CreateNewPatient
+Waiting for main grid to reload
+End CreateNewPatient
+Waiting for main grid to reload
+Waiting for browser to be ready..
+Finished waiting for browser to be ready. Timeout: 19937
+5
+Vascular Lab
+ER
+Portable
+OR
+New Lookup
+7
+7
+7
+7
+7
+Waiting for browser to be ready..
+Finished waiting for browser to be ready. Timeout: 994
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+Administrators
+31
+236
+The AdobeARMservice service status is currently set to Stopped
+Attempting to stop service..
+Cannot stop service AdobeARMservice because it's already inactive.
+8/25/2020 4:42:26 PM | Test Result: Failed
+
