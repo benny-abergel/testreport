@@ -1,0 +1,527 @@
+{
+  "uuid": "fa648e7aabb44707968c790e4a14f513",
+  "historyId": "AV fistula on  Left Dialysis diagram",
+  "fullName": "AV fistula on  Left Dialysis diagram",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CLWHEMONGC0209"
+    },
+    {
+      "name": "feature",
+      "value": "DiagramAllProcedures"
+    },
+    {
+      "name": "tag",
+      "value": "343154"
+    },
+    {
+      "name": "tag",
+      "value": "NIWHITE"
+    },
+    {
+      "name": "tag",
+      "value": "DiagramAllProcedures"
+    }
+  ],
+  "links": [],
+  "name": "AV fistula on  Left Dialysis diagram",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  Creation of the following Contexts:",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "ContextDescription",
+          "value": "Code 1"
+        },
+        {
+          "name": "ContextExternalCode",
+          "value": "C1"
+        },
+        {
+          "name": "ContextPrefix",
+          "value": "p1"
+        }
+      ],
+      "start": 1599050860682,
+      "stop": 1599050860700
+    },
+    {
+      "name": "And  Creation of the following Patients:",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "FirstName",
+          "value": "F"
+        },
+        {
+          "name": "LastName",
+          "value": "L"
+        },
+        {
+          "name": "MiddleName",
+          "value": "M"
+        },
+        {
+          "name": "Prefix",
+          "value": "P"
+        },
+        {
+          "name": "Suffix",
+          "value": "S"
+        },
+        {
+          "name": "PatientMedicalId",
+          "value": "%unique%1"
+        },
+        {
+          "name": "AdditionalID",
+          "value": "0"
+        },
+        {
+          "name": "OptionalID",
+          "value": "222"
+        },
+        {
+          "name": "DateOfBirth",
+          "value": "June 2, 1956"
+        },
+        {
+          "name": "Gender",
+          "value": "Female"
+        },
+        {
+          "name": "ContextExternalCode",
+          "value": "C1"
+        }
+      ],
+      "start": 1599050860700,
+      "stop": 1599050860729
+    },
+    {
+      "name": "And  Creation of the following Visits:",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "ExternalVisitNumber",
+          "value": "123"
+        },
+        {
+          "name": "PatientMedicalId",
+          "value": "%unique%1"
+        },
+        {
+          "name": "ContextExternalCode",
+          "value": "C1"
+        },
+        {
+          "name": "AdmissionDate",
+          "value": "6/8/16 0:00"
+        },
+        {
+          "name": "BedNo",
+          "value": "b"
+        },
+        {
+          "name": "RoomNo",
+          "value": "r"
+        },
+        {
+          "name": "PatientHeight",
+          "value": "180"
+        },
+        {
+          "name": "PatientWeight",
+          "value": "80"
+        }
+      ],
+      "start": 1599050860729,
+      "stop": 1599050860762
+    },
+    {
+      "name": "And  Creation of the following Procedures:",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "PatientMedicalId",
+          "value": "%unique%1"
+        },
+        {
+          "name": "ContextExternalCode",
+          "value": "C1"
+        },
+        {
+          "name": "AccessionNumber",
+          "value": "%unique%abc"
+        },
+        {
+          "name": "ModalityID",
+          "value": "1"
+        },
+        {
+          "name": "ExternalVisitNumber",
+          "value": "123"
+        },
+        {
+          "name": "ArchiveStatusID",
+          "value": ""
+        },
+        {
+          "name": "DepartmentID",
+          "value": ""
+        },
+        {
+          "name": "FacilityID",
+          "value": "1"
+        },
+        {
+          "name": "ReportStatusID",
+          "value": "1"
+        },
+        {
+          "name": "WorkflowStatusID",
+          "value": "5"
+        },
+        {
+          "name": "PerformedStartTime",
+          "value": "5/20/16 0:00"
+        },
+        {
+          "name": "PerformedEndTime",
+          "value": "5/20/16 0:30"
+        },
+        {
+          "name": "PerformingPhysicianUniqueId",
+          "value": "p11"
+        },
+        {
+          "name": "ReferringPhysicianUniqueId",
+          "value": "p12"
+        },
+        {
+          "name": "ProcedureTypeInternalCode",
+          "value": "VASC"
+        },
+        {
+          "name": "ProcedureStatusDescription",
+          "value": "desc"
+        }
+      ],
+      "start": 1599050860762,
+      "stop": 1599050860857
+    },
+    {
+      "name": "And  Creation of the following Folders:",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "AccessionNumber",
+          "value": "%unique%abc"
+        },
+        {
+          "name": "ContextExternalCode",
+          "value": "C1"
+        },
+        {
+          "name": "PatientMedicalId",
+          "value": "%unique%1"
+        },
+        {
+          "name": "FolderDescription",
+          "value": "folder desc"
+        },
+        {
+          "name": "FolderArchiveStatusID",
+          "value": ""
+        },
+        {
+          "name": "OptionalID",
+          "value": "1111"
+        },
+        {
+          "name": "CreationDateTime",
+          "value": "6/18/16 0:00"
+        },
+        {
+          "name": "FolderStatusID",
+          "value": ""
+        },
+        {
+          "name": "ModalityID",
+          "value": "1"
+        }
+      ],
+      "start": 1599050860857,
+      "stop": 1599050860913
+    },
+    {
+      "name": "And  Creation of the following Procedure Sub Types:",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "ContextExternalCode",
+          "value": "C1"
+        },
+        {
+          "name": "AccessionNumber",
+          "value": "%unique%abc"
+        },
+        {
+          "name": "ProcedureSubTypesInternalCode",
+          "value": "DIALYSIS"
+        }
+      ],
+      "start": 1599050860914,
+      "stop": 1599050860927
+    },
+    {
+      "name": "And  I launch report page for current patient",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050860927,
+      "stop": 1599050866240
+    },
+    {
+      "name": "And  I click on report tab named \"Diagram\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050866240,
+      "stop": 1599050867506
+    },
+    {
+      "name": "When  I click on:'Show/Hide Segment' button in Diagram toolbar",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050867506,
+      "stop": 1599050868253
+    },
+    {
+      "name": "And  I click in 'Dialysis Left' on Aretery 'Ascending aorta'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050868253,
+      "stop": 1599050869849
+    },
+    {
+      "name": "When  I click on:'Show/Hide Segment' button in Diagram toolbar",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050869849,
+      "stop": 1599050869940
+    },
+    {
+      "name": "And  I click in 'Dialysis Left' on Vein 'Cephalic at Dist UA, Right'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050869940,
+      "stop": 1599050870013
+    },
+    {
+      "name": "When  I click on:'AV Fistula' button in Diagram toolbar",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050870013,
+      "stop": 1599050870132
+    },
+    {
+      "name": "And  I wait '5' secondes",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050870132,
+      "stop": 1599050875135
+    },
+    {
+      "name": "And  I drag in 'Dialysis Left' the AV fistula between vein 'Cephalic at Dist UA, Right' and Artery 'Ascending aorta'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050875135,
+      "stop": 1599050875468
+    },
+    {
+      "name": "Then  The AV fistula is displayed on Vein 'Cephalic at Dist UA, Right' the correct location",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050875468,
+      "stop": 1599050878015
+    },
+    {
+      "name": "And  I click on report tab named \"Procedure Findings\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050878015,
+      "stop": 1599050879335
+    },
+    {
+      "name": "When  I click on expand button in \"0\" row in AVFistulas I have the following data:",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Arterial anastomosis site",
+          "value": "Ascending aorta"
+        }
+      ],
+      "start": 1599050879335,
+      "stop": 1599050882889
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1599050860681,
+  "stop": 1599050882889
+}

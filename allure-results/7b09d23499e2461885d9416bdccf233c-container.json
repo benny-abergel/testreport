@@ -1,0 +1,58 @@
+{
+  "uuid": "09bfcde2626642c4ba31b7e9e768ce86",
+  "children": [
+    "9d340a69c838446c80747c472ed86204"
+  ],
+  "befores": [
+    {
+      "name": "BeforeSeleniumScenario [0]",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050451213,
+      "stop": 1599050451456
+    },
+    {
+      "name": "BeforeScenario [1]",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050451456,
+      "stop": 1599050451465
+    }
+  ],
+  "afters": [
+    {
+      "name": "AfterSeleniumScenario [0]",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050512779,
+      "stop": 1599050516824
+    }
+  ],
+  "links": [],
+  "start": 1599050451212,
+  "stop": 1599050771827
+}

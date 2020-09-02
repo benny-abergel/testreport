@@ -1,0 +1,4 @@
+PersonUniqueId,FirstName,LastName,SsnNumber,LicenseNumber,Role
+ProcedureStaff1,ProcedureStaff,One,ssn1,Lic1,REFERRING_PHYSICIAN
+ProcedureStaff2,ProcedureStaff,Two,ssn2,Lic2,ECHO_INTERPRETING_PHYSICIAN
+ProcedureStaff3,ProcedureStaff,Three,ssn3,Lic3,ECHO_SONOGRAPHER

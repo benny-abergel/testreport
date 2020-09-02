@@ -1,0 +1,346 @@
+{
+  "uuid": "43ef0aeca0ce41dd9dc39a601210404c",
+  "historyId": "Add And Remove Field From Report Section",
+  "fullName": "Add And Remove Field From Report Section",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CLWHEMONGC0209"
+    },
+    {
+      "name": "feature",
+      "value": "Add New Field Dialog"
+    },
+    {
+      "name": "tag",
+      "value": "350913"
+    },
+    {
+      "name": "tag",
+      "value": "priority2InvasiveICE"
+    },
+    {
+      "name": "tag",
+      "value": "InvasiveICE"
+    }
+  ],
+  "links": [],
+  "name": "Add And Remove Field From Report Section",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I launch report configuration page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050220739,
+      "stop": 1599050223981
+    },
+    {
+      "name": "And  I click on 'VASC' module",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050223982,
+      "stop": 1599050225046
+    },
+    {
+      "name": "And  I duplicate the active revision",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050225046,
+      "stop": 1599050231002
+    },
+    {
+      "name": "And  I click on first inactive revision",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050231002,
+      "stop": 1599050231098
+    },
+    {
+      "name": "And  I click on first layout",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050231098,
+      "stop": 1599050232750
+    },
+    {
+      "name": "And  I wait '5' secondes",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050232750,
+      "stop": 1599050237756
+    },
+    {
+      "name": "And  I open add field dialog on 'Patient Information' widget in 'REPORT LAYOUT' mode",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050237756,
+      "stop": 1599050238340
+    },
+    {
+      "name": "And  I click on 'Search for an existing field' in Add New Field dialog",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050238340,
+      "stop": 1599050238981
+    },
+    {
+      "name": "And  I wait '5' secondes",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050238981,
+      "stop": 1599050243983
+    },
+    {
+      "name": "And  I select 'Ethnicity' field",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050243983,
+      "stop": 1599050245127
+    },
+    {
+      "name": "And  I wait '5' secondes",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050245127,
+      "stop": 1599050250129
+    },
+    {
+      "name": "And  I click Apply in Field Customization dialog",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050250129,
+      "stop": 1599050250277
+    },
+    {
+      "name": "And  I wait '5' secondes",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050250277,
+      "stop": 1599050255278
+    },
+    {
+      "name": "And  I click Save layout",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050255278,
+      "stop": 1599050256218
+    },
+    {
+      "name": "When  I remove 'Ethnicity' field from 'Patient Information' section in 'REPORT LAYOUT' mode",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050256218,
+      "stop": 1599050256570
+    },
+    {
+      "name": "When  I click on Yes button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050256570,
+      "stop": 1599050256661
+    },
+    {
+      "name": "And  I click Save layout",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050256661,
+      "stop": 1599050256768
+    },
+    {
+      "name": "Then  I validate that 'Ethnicity' field from 'Patient Information' section in 'REPORT LAYOUT' mode was 'removed'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050256768,
+      "stop": 1599050261883
+    },
+    {
+      "name": "When  I click Save layout",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050261883,
+      "stop": 1599050263303
+    },
+    {
+      "name": "And  I delete first inactive revision",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599050263303,
+      "stop": 1599050269802
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1599050220725,
+  "stop": 1599050269810
+}
