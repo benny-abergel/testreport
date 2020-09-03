@@ -1,0 +1,374 @@
+{
+  "uuid": "f3f589a0ceef48b4bcce6f8d810e3afa",
+  "historyId": "Add stents in aortic iliac diagram",
+  "fullName": "Add stents in aortic iliac diagram",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AUTORUNNER8"
+    },
+    {
+      "name": "feature",
+      "value": "DiagramAllProcedures"
+    },
+    {
+      "name": "tag",
+      "value": "341719"
+    },
+    {
+      "name": "tag",
+      "value": "NIWHITE"
+    },
+    {
+      "name": "tag",
+      "value": "DiagramAllProcedures"
+    }
+  ],
+  "links": [],
+  "name": "Add stents in aortic iliac diagram",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Timed out after 60 seconds -> no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li[@data-autid='tab-Diagram']\"}\n  (Session info: chrome=84.0.4147.89)\n  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Windows NT 10.0.18362 x86_64)",
+    "trace": "OpenQA.Selenium.WebDriverTimeoutException: Timed out after 60 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li[@data-autid='tab-Diagram']\"}\n  (Session info: chrome=84.0.4147.89)\n  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Windows NT 10.0.18362 x86_64)\r\n   at Common.Interceptions.BaseInterceptor.OnException(Exception e, IInvocation invocation) in c:\\Jenkins\\workspace\\MCReporting_UI_Automation\\AutomationFramework\\Common\\Interceptions\\LogInterceptor.cs:line 55\r\n   at Common.Interceptions.BaseInterceptor.Intercept(IInvocation invocation) in c:\\Jenkins\\workspace\\MCReporting_UI_Automation\\AutomationFramework\\Common\\Interceptions\\LogInterceptor.cs:line 68\r\n   at Castle.DynamicProxy.AbstractInvocation.Proceed()\r\n   at Castle.Proxies.ChromeDriverProxy.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)\r\n   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass3b.<ElementToBeClickable>b__3a(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   --- End of inner exception stack trace ---\r\n   at Common.Interceptions.BaseInterceptor.OnException(Exception e, IInvocation invocation) in c:\\Jenkins\\workspace\\MCReporting_UI_Automation\\AutomationFramework\\Common\\Interceptions\\LogInterceptor.cs:line 55\r\n   at Common.Interceptions.BaseInterceptor.Intercept(IInvocation invocation) in c:\\Jenkins\\workspace\\MCReporting_UI_Automation\\AutomationFramework\\Common\\Interceptions\\LogInterceptor.cs:line 68\r\n   at Castle.DynamicProxy.AbstractInvocation.Proceed()\r\n   at Castle.Proxies.LaunchingPageProxy.ClickOnTab(String name)\r\n   at Selenium.SharedSteps.NRP.LaunchingSteps.GivenIClickOnTab(String tabname) in c:\\Jenkins\\workspace\\MCReporting_UI_Automation\\AutomationFramework\\Selenium\\SharedSteps\\NRP\\LaunchingSteps.cs:line 168\r\n   at lambda_method(Closure , IContextManager , String )\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Bindings\\BindingInvoker.cs:line 69\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 517\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 422"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  Creation of the following Contexts:",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "ContextDescription",
+          "value": "Code 1"
+        },
+        {
+          "name": "ContextExternalCode",
+          "value": "C1"
+        },
+        {
+          "name": "ContextPrefix",
+          "value": "p1"
+        }
+      ],
+      "start": 1599142379472,
+      "stop": 1599142379573
+    },
+    {
+      "name": "And  Creation of the following Patients:",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "FirstName",
+          "value": "F"
+        },
+        {
+          "name": "LastName",
+          "value": "L"
+        },
+        {
+          "name": "MiddleName",
+          "value": "M"
+        },
+        {
+          "name": "Prefix",
+          "value": "P"
+        },
+        {
+          "name": "Suffix",
+          "value": "S"
+        },
+        {
+          "name": "PatientMedicalId",
+          "value": "%unique%1"
+        },
+        {
+          "name": "AdditionalID",
+          "value": "0"
+        },
+        {
+          "name": "OptionalID",
+          "value": "222"
+        },
+        {
+          "name": "DateOfBirth",
+          "value": "June 2, 1956"
+        },
+        {
+          "name": "Gender",
+          "value": "Female"
+        },
+        {
+          "name": "ContextExternalCode",
+          "value": "C1"
+        }
+      ],
+      "start": 1599142379573,
+      "stop": 1599142379794
+    },
+    {
+      "name": "And  Creation of the following Visits:",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "ExternalVisitNumber",
+          "value": "123"
+        },
+        {
+          "name": "PatientMedicalId",
+          "value": "%unique%1"
+        },
+        {
+          "name": "ContextExternalCode",
+          "value": "C1"
+        },
+        {
+          "name": "AdmissionDate",
+          "value": "6/8/16 0:00"
+        },
+        {
+          "name": "BedNo",
+          "value": "b"
+        },
+        {
+          "name": "RoomNo",
+          "value": "r"
+        },
+        {
+          "name": "PatientHeight",
+          "value": "180"
+        },
+        {
+          "name": "PatientWeight",
+          "value": "80"
+        }
+      ],
+      "start": 1599142379794,
+      "stop": 1599142379993
+    },
+    {
+      "name": "And  Creation of the following Procedures:",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "PatientMedicalId",
+          "value": "%unique%1"
+        },
+        {
+          "name": "ContextExternalCode",
+          "value": "C1"
+        },
+        {
+          "name": "AccessionNumber",
+          "value": "%unique%abc"
+        },
+        {
+          "name": "ModalityID",
+          "value": "1"
+        },
+        {
+          "name": "ExternalVisitNumber",
+          "value": "123"
+        },
+        {
+          "name": "ArchiveStatusID",
+          "value": ""
+        },
+        {
+          "name": "DepartmentID",
+          "value": ""
+        },
+        {
+          "name": "FacilityID",
+          "value": "1"
+        },
+        {
+          "name": "ReportStatusID",
+          "value": "1"
+        },
+        {
+          "name": "WorkflowStatusID",
+          "value": "5"
+        },
+        {
+          "name": "PerformedStartTime",
+          "value": "5/20/16 0:00"
+        },
+        {
+          "name": "PerformedEndTime",
+          "value": "5/20/16 0:30"
+        },
+        {
+          "name": "PerformingPhysicianUniqueId",
+          "value": "p11"
+        },
+        {
+          "name": "ReferringPhysicianUniqueId",
+          "value": "p12"
+        },
+        {
+          "name": "ProcedureTypeInternalCode",
+          "value": "VASC"
+        },
+        {
+          "name": "ProcedureStatusDescription",
+          "value": "desc"
+        }
+      ],
+      "start": 1599142379994,
+      "stop": 1599142380350
+    },
+    {
+      "name": "And  Creation of the following Folders:",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "AccessionNumber",
+          "value": "%unique%abc"
+        },
+        {
+          "name": "ContextExternalCode",
+          "value": "C1"
+        },
+        {
+          "name": "PatientMedicalId",
+          "value": "%unique%1"
+        },
+        {
+          "name": "FolderDescription",
+          "value": "folder desc"
+        },
+        {
+          "name": "FolderArchiveStatusID",
+          "value": ""
+        },
+        {
+          "name": "OptionalID",
+          "value": "1111"
+        },
+        {
+          "name": "CreationDateTime",
+          "value": "6/18/16 0:00"
+        },
+        {
+          "name": "FolderStatusID",
+          "value": ""
+        },
+        {
+          "name": "ModalityID",
+          "value": "1"
+        }
+      ],
+      "start": 1599142380350,
+      "stop": 1599142380532
+    },
+    {
+      "name": "And  Creation of the following Procedure Sub Types:",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "ContextExternalCode",
+          "value": "C1"
+        },
+        {
+          "name": "AccessionNumber",
+          "value": "%unique%abc"
+        },
+        {
+          "name": "ProcedureSubTypesInternalCode",
+          "value": "AORTIC-ILIAC"
+        }
+      ],
+      "start": 1599142380532,
+      "stop": 1599142380566
+    },
+    {
+      "name": "And  I launch report page for current patient",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599142380567,
+      "stop": 1599142419646
+    },
+    {
+      "name": "And  I click on report tab named \"Diagram\"",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1599142419646,
+      "stop": 1599142480913
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1599142379472,
+  "stop": 1599142480914
+}
